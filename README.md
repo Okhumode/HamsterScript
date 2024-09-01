@@ -1,4 +1,8 @@
 # HamsterScript
+# First gain  super user permission by running the command below
+```sh
+sudo su
+```
 ### 1. Open Your VPS
 ```sh
 cd Hamster
@@ -15,7 +19,27 @@ CTRL O
 ENTER 
 
 CTRL X
-### 4. Install requirements
+### 4. Install requiremen# First gain  super user permission by running the command below
+```sh
+sudo su
+```
+### 1. Open Your VPS
+```sh
+cd Hamster
+```
+### 2. Edit your env file, input your API ID and API HASH in the spaces provided for it, edit other enviromental variables your taste.
+```sh
+nano .env
+```
+If you don't want the bot to increase your pph, add a number to your balance to save. Like the name implies, the bot will not upgrade your pph instead it will save your coins till it gets to the paticular value that you set it to. e.g BALANCE_TO_SAVE= 1000000000 means the bot will save your coins for you till 1000000000, it won't increase your pph. i don't see the point in doing balance to save because the hamster team has said they won't use coins 
+
+### 3. After editing your .env file, save it:
+CTRL O
+
+ENTER 
+
+CTRL X
+### 4. Install requirementsts
 ```sh
 python install.py
 ```
